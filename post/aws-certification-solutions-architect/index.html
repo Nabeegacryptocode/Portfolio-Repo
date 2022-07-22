@@ -1,0 +1,1007 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academic 4.6.3">
+
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Sibdow Iddrisu">
+
+  
+  
+  
+    
+  
+  <meta name="description" content="Tools and Materials I used to prepare for and pass my AWS certification exam">
+
+  
+  <link rel="alternate" hreflang="en-us" href="https://siaj.github.io/post/aws-certification-solutions-architect/">
+
+  
+
+
+  
+  
+  
+  <meta name="theme-color" content="#4caf50">
+  
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" integrity="sha256-+N4/V/SbAFiW1MPBCXnfnP9QSN3+Keu+NlB+0ev/YKQ=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+        
+      
+    
+
+    
+
+    
+
+  
+
+  
+  
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CRoboto:400,400italic,700%7CRoboto+Mono&display=swap">
+  
+
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/academic.css">
+
+  
+
+
+
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-NC7165Y0TD"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           document.location = url;
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target);  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'G-NC7165Y0TD', {});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
+  
+
+
+  
+
+  <link rel="manifest" href="/index.webmanifest">
+  <link rel="icon" type="image/png" href="/img/icon-32.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
+
+  <link rel="canonical" href="https://siaj.github.io/post/aws-certification-solutions-architect/">
+
+  
+  
+  
+  
+    
+  
+  
+  <meta property="twitter:card" content="summary_large_image">
+  
+  <meta property="og:site_name" content="Sibdow Iddrisu">
+  <meta property="og:url" content="https://siaj.github.io/post/aws-certification-solutions-architect/">
+  <meta property="og:title" content="PASSING MY AWS CERTIFIED SAA EXAM | Sibdow Iddrisu">
+  <meta property="og:description" content="Tools and Materials I used to prepare for and pass my AWS certification exam"><meta property="og:image" content="https://siaj.github.io/post/aws-certification-solutions-architect/featured.png">
+  <meta property="twitter:image" content="https://siaj.github.io/post/aws-certification-solutions-architect/featured.png"><meta property="og:locale" content="en-us">
+  
+    
+      <meta property="article:published_time" content="2020-05-09T19:57:26-06:00">
+    
+    <meta property="article:modified_time" content="2020-05-09T19:57:26-06:00">
+  
+
+  
+
+
+    
+
+
+
+
+
+
+  
+
+
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://siaj.github.io/post/aws-certification-solutions-architect/"
+  },
+  "headline": "PASSING MY AWS CERTIFIED SAA EXAM",
+  
+  "image": [
+    "https://siaj.github.io/post/aws-certification-solutions-architect/featured.png"
+  ],
+  
+  "datePublished": "2020-05-09T19:57:26-06:00",
+  "dateModified": "2020-05-09T19:57:26-06:00",
+  
+  "author": {
+    "@type": "Person",
+    "name": "Sibdow Iddrisu"
+  },
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Sibdow Iddrisu",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://siaj.github.io/img/icon-512.png"
+    }
+  },
+  "description": "Tools and Materials I used to prepare for and pass my AWS certification exam"
+}
+</script>
+
+  
+
+  
+
+
+  
+
+
+  
+
+
+
+
+
+  <title>PASSING MY AWS CERTIFIED SAA EXAM | Sibdow Iddrisu</title>
+
+</head>
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" >
+
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+  
+
+<nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+  <div class="container">
+
+    
+    <div class="d-none d-lg-inline-flex">
+      <a class="navbar-brand" href="/">Sibdow Iddrisu</a>
+    </div>
+    
+
+    
+    <button type="button" class="navbar-toggler" data-toggle="collapse"
+            data-target="#navbar-content" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+    <span><i class="fas fa-bars"></i></span>
+    </button>
+    
+
+    
+    <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+      <a class="navbar-brand" href="/">Sibdow Iddrisu</a>
+    </div>
+    
+
+    
+    
+    <div class="navbar-collapse main-menu-item collapse justify-content-end" id="navbar-content">
+
+      
+      <ul class="navbar-nav d-md-inline-flex">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#about"><span>Home</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#skills"><span>Skills</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#experience"><span>Experience</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#projects"><span>Projects</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#accomplishments"><span>Accomplishments</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#posts"><span>Posts</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#contact"><span>Contact</span></a>
+        </li>
+
+        
+        
+
+      
+
+        
+      </ul>
+    </div>
+
+    <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+      
+
+      
+      <li class="nav-item">
+        <a class="nav-link js-dark-toggle" href="#"><i class="fas fa-moon" aria-hidden="true"></i></a>
+      </li>
+      
+
+      
+
+    </ul>
+
+  </div>
+</nav>
+
+
+  <article class="article">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+<div class="article-container pt-3">
+  <h1>PASSING MY AWS CERTIFIED SAA EXAM</h1>
+
+  
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+
+
+  
+  <span><a href="/authors/admin/">Sibdow Iddrisu</a></span>
+
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    May 9, 2020
+  </span>
+  
+
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    4 min read
+  </span>
+  
+
+  
+  
+  
+
+  
+  
+
+</div>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+</div>
+
+
+
+  <div class="article-container">
+
+    <div class="article-style">
+      <hr/>
+<p>This is just a short post about the tools and materials I used to prepare for and pass my AWS certifications (Certified Cloud Practitioner and Certified Solutins Architect Associate). My initial preparation was towards the Solutions Architect Examination but then I decided to take the Practitioner exam before that, knowing that if I am able to pass that one, it would give me lots of confidence going into the Solutions Architect exam.</p>
+<p>The whole preparation process took roughly 7 weeks for me, and that's one thing about these certification exams, you need to take as much time as possible to prepare for them as they can be really tricky and difficult if you do not have the sufficient preparation.</p>
+<p>I made use of materials from the AWS certification prep website (<a href="#aws_links">link below</a>), where I got the gist of what to know and some recommended material to study in order to pass the exam. Things like the exam guide and a short sample exam is available to give you a general idea as to what to expect. Most importantly, there are links to whitepapers and FAQs of the necessary services you need to know.</p>
+<p>Just that alone was not enough to effectively study for the exam, at least for me, so I made use of some video tutorials from udemy (<a href="#vid_train">links below</a>). The videos really helped me a lot, as it made going through and learning about the various services less painful - because you see someone explain and demonstrate. I went through the video tutorials twice; the first round was just watching to get a general idea about the content (more like watching a TV show), and in the second round, I made lots of notes and got my &lsquo;hands dirty&rsquo; by practicing along with the instructor.</p>
+<p>After feeling confident about the knowledge gained so far, you may want to get some practice exams (also from udemy - <a href="#practice">link below</a>) to validate your knowledge before going in for the main exam. In my opinion, these practice exams are generally difficult than the main exam but excellent in preparing you for the exam - so don't be too hard on yourself should you fail a couple of them. They provide detailed explanations to the solutions and that again helps in clearing some doubts and solidifying your knowledge in the subject matter.</p>
+<p>I decided to take the Cloud Practioner exam after my preparation thus far, and it was really good - it helped increase my confidence, so I booked the Solutions Architect Associate (SAA) exam for the following week and passed that one too. Currently preparing to take the Developer Associate exam sometime this month and maybe the SysOps Admin Associate some other time in the near future.</p>
+<p>I am hoping this would help those interested in pursuing the AWS Certified Solutions Architect Exam or even the Cloud Practitioner (<a href="#vid">video below</a>) prepare sufficiently in order to ace these exams. Good Luck!</p>
+<hr/>
+<h1><u>MATERIALS</u></h1>
+<div id="aws_links" style="padding-top: 20px"></div>
+<p><strong>1. AWS Whitepapers &amp; Other Materials:</strong></p>
+<ul>
+<li><a href="https://aws.amazon.com/certification/certification-prep/" target="_balnk">AWS Certification Prep - Website</a></li>
+<li><a href="https://aws.amazon.com/architecture/well-architected/" target="_balnk">AWS Well-Architected Framework - Website</a></li>
+<li><a href="https://d1.awsstatic.com/whitepapers/AWS_Cloud_Best_Practices.pdf" target="_balnk">AWS Cloud Best Practices - PDF</a></li>
+<li>NB: Please read product documentation for the required services (Overview, Features &amp; Faqs)</li>
+</ul>
+<div id="vid_train" style="padding-top: 20px"></div>
+<p><strong>2. Videos Tutorials on Udemy:</strong></p>
+<ul>
+<li><a href="https://www.udemy.com/course/aws-certified-solutions-architect-associate-saa-c02/" target="_blank">Stephane Maarek</a></li>
+<li><a href="https://www.udemy.com/course/aws-certified-solutions-architect-associate/" target="_blank">A Cloud Guru</a></li>
+</ul>
+<div id="practice" style="padding-top: 20px"></div>
+<p><strong>3. Practice Exams on Udemy:</strong></p>
+<ul>
+<li><a href="https://www.udemy.com/course/aws-certified-solutions-architect-associate-amazon-practice-exams-saa-c02/" target="_balnk">Solutions Architect Practice Exams</a>
+<br/><br/></li>
+</ul>
+  <hr/>
+<p><strong>SOME IMPORTANT NOTES FOR SAA:</strong></p>
+<ol>
+<li>
+<p>Please take some time to watch a couple of AWS re:Invent videos on youtube, they have really excellent talks about their services (what is better than learning about a service from the owners of the service)</p>
+</li>
+<li>
+<p>You should know and understand the concepts around the Amazon VPC inside-out. Be able to design, build and solve VPC problem efficiently without any reference</p>
+</li>
+<li>
+<p>Understand Designing Reliable and Highly Available Architectures (Load Balancing + Target Groups, Auto Scaling Groups + Launch configs, Database Multi-AZ, S3 Cross-Region Replication, S3 Storage tiers, CloudFront CDN, etc.)</p>
+</li>
+<li>
+<p>Architecture Security (IAM, VPC Security [Private Subnets; Security Groups; Network Access Control Lists; using VPC Endpoints and NAT Gateways], Encryption/KMS)</p>
+</li>
+<li>
+<p>Cost-Effective Design (Ex. Use of Reserved Instances rather than On-Demand Instance in certain circumstances to save cost)</p>
+</li>
+</ol>
+<div id="vid" style="padding-top: 50px">
+  
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/3hLmDS179YE" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
+</div>
+    </div>
+
+    
+
+
+
+
+
+
+
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=https://siaj.github.io/post/aws-certification-solutions-architect/&amp;text=PASSING%20MY%20AWS%20CERTIFIED%20SAA%20EXAM" target="_blank" rel="noopener" class="share-btn-twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=https://siaj.github.io/post/aws-certification-solutions-architect/&amp;t=PASSING%20MY%20AWS%20CERTIFIED%20SAA%20EXAM" target="_blank" rel="noopener" class="share-btn-facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=PASSING%20MY%20AWS%20CERTIFIED%20SAA%20EXAM&amp;body=https://siaj.github.io/post/aws-certification-solutions-architect/" target="_blank" rel="noopener" class="share-btn-email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=https://siaj.github.io/post/aws-certification-solutions-architect/&amp;title=PASSING%20MY%20AWS%20CERTIFIED%20SAA%20EXAM" target="_blank" rel="noopener" class="share-btn-linkedin">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://web.whatsapp.com/send?text=PASSING%20MY%20AWS%20CERTIFIED%20SAA%20EXAM%20https://siaj.github.io/post/aws-certification-solutions-architect/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=https://siaj.github.io/post/aws-certification-solutions-architect/&amp;title=PASSING%20MY%20AWS%20CERTIFIED%20SAA%20EXAM" target="_blank" rel="noopener" class="share-btn-weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+  
+  <div class="media author-card content-widget-hr">
+    
+      
+      <img class="portrait mr-3" src="/authors/admin/avatar_hu232835aa43367bb556819f878afd2407_38311_250x250_fill_q90_lanczos_center.jpg" alt="Avatar">
+    
+
+    <div class="media-body">
+      <h5 class="card-title"><a href="https://siaj.github.io/">Sibdow Iddrisu</a></h5>
+      <h6 class="card-subtitle">Computer Science MSc.</h6>
+      <p class="card-text">My interest lies in solving the everyday problems faced by the globe with computer science</p>
+      <ul class="network-icon" aria-hidden="true">
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="/#contact" >
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://www.linkedin.com/in/sibdow-iddrisu-265a649a/" target="_blank" rel="noopener">
+        <i class="fab fa-linkedin"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://github.com/Siaj" target="_blank" rel="noopener">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+  
+</ul>
+
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+  </div>
+</article>
+
+      
+
+    
+    
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha256-yt2kYMy0w8AbtF89WXb2P1rfjcP/HTHLT7097U8Y5b8=" crossorigin="anonymous"></script>
+
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/highlight.min.js" integrity="sha256-1zu+3BnLYV9LdiY85uXMzii3bdrkelyp37e0ZyTAQh0=" crossorigin="anonymous"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/languages/r.min.js"></script>
+        
+      
+
+      
+      
+    
+
+    
+    
+
+    
+    
+    <script>const code_highlighting = true;</script>
+    
+
+    
+
+    
+    
+
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <script src="/js/academic.min.f218084425bfafebbca8d75760d5fa66.js"></script>
+
+    
+
+
+
+
+
+
+  
+  
+  <div class="container">
+    <footer class="site-footer">
+  
+
+  <p class="powered-by">
+    © 2020 . Sibdow Iddrisu &middot; 
+
+    Powered by the
+    <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+    <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+    
+    <span class="float-right" aria-hidden="true">
+      <a href="#" class="back-to-top">
+        <span class="button_icon">
+          <i class="fas fa-chevron-up fa-2x"></i>
+        </span>
+      </a>
+    </span>
+    
+  </p>
+</footer>
+
+  </div>
+  
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
