@@ -26,12 +26,12 @@
     </item>
     
     <item>
-      <title>PASSING MY AWS CERTIFIED SAA EXAM</title>
+      <title>PASSING MY COMPTIA SECURITY+ CERTIFICATION</title>
       <link>https://siaj.github.io/post/aws-certification-solutions-architect/</link>
       <pubDate>Sat, 09 May 2020 19:57:26 -0600</pubDate>
       <guid>https://siaj.github.io/post/aws-certification-solutions-architect/</guid>
       <description>&lt;hr/&gt;
-&lt;p&gt;This is just a short post about the tools and materials I used to prepare for and pass my AWS certifications (Certified Cloud Practitioner and Certified Solutins Architect Associate). My initial preparation was towards the Solutions Architect Examination but then I decided to take the Practitioner exam before that, knowing that if I am able to pass that one, it would give me lots of confidence going into the Solutions Architect exam.&lt;/p&gt;
+&lt;p&gt;This is just a short post about the tools and materials I used to prepare for and pass my AWS certifications Comptia A+. My initial preparation was towards the Solutions Architect Examination but then
 &lt;p&gt;The whole preparation process took roughly 7 weeks for me, and that&#39;s one thing about these certification exams, you need to take as much time as possible to prepare for them as they can be really tricky and difficult if you do not have the sufficient preparation.&lt;/p&gt;
 &lt;p&gt;I made use of materials from the AWS certification prep website (&lt;a href=&#34;#aws_links&#34;&gt;link below&lt;/a&gt;), where I got the gist of what to know and some recommended material to study in order to pass the exam. Things like the exam guide and a short sample exam is available to give you a general idea as to what to expect. Most importantly, there are links to whitepapers and FAQs of the necessary services you need to know.&lt;/p&gt;
 &lt;p&gt;Just that alone was not enough to effectively study for the exam, at least for me, so I made use of some video tutorials from udemy (&lt;a href=&#34;#vid_train&#34;&gt;links below&lt;/a&gt;). The videos really helped me a lot, as it made going through and learning about the various services less painful - because you see someone explain and demonstrate. I went through the video tutorials twice; the first round was just watching to get a general idea about the content (more like watching a TV show), and in the second round, I made lots of notes and got my &amp;lsquo;hands dirty&amp;rsquo; by practicing along with the instructor.&lt;/p&gt;
@@ -43,7 +43,7 @@
 &lt;div id=&#34;aws_links&#34; style=&#34;padding-top: 20px&#34;&gt;&lt;/div&gt;
 &lt;p&gt;&lt;strong&gt;1. AWS Whitepapers &amp;amp; Other Materials:&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://aws.amazon.com/certification/certification-prep/&#34; target=&#34;_balnk&#34;&gt;AWS Certification Prep - Website&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://aws.amazon.com/certification/certification-prep/&#34; target=&#34;_balnk&#34;&gt;Comptia A+ Prep - Website&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://aws.amazon.com/architecture/well-architected/&#34; target=&#34;_balnk&#34;&gt;AWS Well-Architected Framework - Website&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://d1.awsstatic.com/whitepapers/AWS_Cloud_Best_Practices.pdf&#34; target=&#34;_balnk&#34;&gt;AWS Cloud Best Practices - PDF&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;NB: Please read product documentation for the required services (Overview, Features &amp;amp; Faqs)&lt;/li&gt;
